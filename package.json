@@ -1,0 +1,12 @@
+{
+  "name": "@acrux/design-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens for Acrux ecosystem",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./colors": "./colors.js",
+    "./typography": "./typography.js"
+  },
+  "type": "module"
+}
