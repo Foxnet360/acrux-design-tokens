@@ -1,0 +1,11 @@
+[data-theme="pulso-h"] {
+  --color-brand-primary: #2E4B8A;
+  --color-brand-primary-hover: #233A6D;
+  --color-brand-secondary: #475569;
+  --color-brand-accent: #60A5FA;
+  --color-brand-accent-hover: #3B82F6;
+  --color-bg-main: #F0F4FF;
+  --color-bg-surface: #E0E7FF;
+  --color-text-main: #1E293B;
+  --color-text-muted: #64748B;
+}

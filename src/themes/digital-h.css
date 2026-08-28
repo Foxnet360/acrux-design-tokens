@@ -1,0 +1,11 @@
+[data-theme="digital-h"] {
+  --color-brand-primary: #1A6B4A;
+  --color-brand-primary-hover: #135339;
+  --color-brand-secondary: #334155;
+  --color-brand-accent: #34D399;
+  --color-brand-accent-hover: #10B981;
+  --color-bg-main: #F0FFF8;
+  --color-bg-surface: #D1FAE5;
+  --color-text-main: #0F172A;
+  --color-text-muted: #475569;
+}

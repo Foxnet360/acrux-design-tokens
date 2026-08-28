@@ -1,0 +1,11 @@
+[data-theme="acrux"], :root {
+  --color-brand-primary: #1B2A4A;
+  --color-brand-primary-hover: #14203A;
+  --color-brand-secondary: #5C7565;
+  --color-brand-accent: #F5A623;
+  --color-brand-accent-hover: #E09612;
+  --color-bg-main: #F8F6F3;
+  --color-bg-surface: #F0F4F8;
+  --color-text-main: #2D2D2D;
+  --color-text-muted: #6B7280;
+}

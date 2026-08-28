@@ -1,0 +1,58 @@
+export const productThemes = {
+  acrux: {
+    name: 'ACRUX Consultores',
+    colors: {
+      primary: '#1B2A4A',
+      primaryHover: '#14203A',
+      secondary: '#5C7565',
+      accent: '#F5A623',
+      accentHover: '#E09612',
+      background: '#F8F6F3',
+      surface: '#F0F4F8',
+      text: '#2D2D2D',
+      textMuted: '#6B7280',
+    },
+  },
+  'pulso-h': {
+    name: 'PULSO-H',
+    colors: {
+      primary: '#2E4B8A',
+      primaryHover: '#233A6D',
+      secondary: '#475569',
+      accent: '#60A5FA',
+      accentHover: '#3B82F6',
+      background: '#F0F4FF',
+      surface: '#E0E7FF',
+      text: '#1E293B',
+      textMuted: '#64748B',
+    },
+  },
+  'digital-h': {
+    name: 'DIGITAL-H',
+    colors: {
+      primary: '#1A6B4A',
+      primaryHover: '#135339',
+      secondary: '#334155',
+      accent: '#34D399',
+      accentHover: '#10B981',
+      background: '#F0FFF8',
+      surface: '#D1FAE5',
+      text: '#0F172A',
+      textMuted: '#475569',
+    },
+  },
+  roi: {
+    name: 'Calculadora de ROI',
+    colors: {
+      primary: '#B45309',
+      primaryHover: '#92400E',
+      secondary: '#4B5563',
+      accent: '#F59E0B',
+      accentHover: '#D97706',
+      background: '#FFFBEB',
+      surface: '#FEF3C7',
+      text: '#1F2937',
+      textMuted: '#4B5563',
+    },
+  },
+};

@@ -1,0 +1,74 @@
+@import './src/themes/acrux.css';
+@import './src/themes/pulso-h.css';
+@import './src/themes/digital-h.css';
+@import './src/themes/roi.css';
+
+@theme {
+  /* Primary - Deep Blue */
+  --color-primary: #1B2A4A;
+  --color-primary-50: #f2f4f8;
+  --color-primary-100: #e1e5ee;
+  --color-primary-200: #c2cadc;
+  --color-primary-300: #9ba9c4;
+  --color-primary-400: #7185a9;
+  --color-primary-500: #52688f;
+  --color-primary-600: #3f5174;
+  --color-primary-700: #34425f;
+  --color-primary-800: #2d3850;
+  --color-primary-900: #1B2A4A;
+  --color-primary-950: #1a2235;
+
+  /* Secondary - Sage Green */
+  --color-secondary: #5C7565;
+  --color-secondary-50: #f3f6f4;
+  --color-secondary-100: #e3e9e5;
+  --color-secondary-200: #c9d5ce;
+  --color-secondary-300: #a3b8ad;
+  --color-secondary-400: #799587;
+  --color-secondary-500: #5C7565;
+  --color-secondary-600: #465b4d;
+  --color-secondary-700: #3a4a3f;
+  --color-secondary-800: #303d35;
+  --color-secondary-900: #28332c;
+  --color-secondary-950: #151d19;
+
+  /* Accent - Warm Yellow */
+  --color-accent: #F5A623;
+  --color-accent-50: #fef8ee;
+  --color-accent-100: #fdefd6;
+  --color-accent-200: #fbdaaa;
+  --color-accent-300: #f8c076;
+  --color-accent-400: #f5a623;
+  --color-accent-500: #ef8710;
+  --color-accent-600: #e06b0b;
+  --color-accent-700: #ba4f0c;
+  --color-accent-800: #943e11;
+  --color-accent-900: #773411;
+  --color-accent-950: #431905;
+
+  /* Success - Green */
+  --color-success: #4A7C59;
+  --color-success-50: #f2f8f4;
+  --color-success-100: #e0efe5;
+  --color-success-200: #c2dfcd;
+  --color-success-300: #95c6aa;
+  --color-success-400: #64a682;
+  --color-success-500: #4a8b64;
+  --color-success-600: #4A7C59;
+  --color-success-700: #2e5d40;
+  --color-success-800: #264a34;
+  --color-success-900: #203d2b;
+  --color-success-950: #102217;
+
+  /* Background & Surface */
+  --color-background: #F8F6F3;
+  --color-surface: #f0f4f8;
+
+  /* Text Colors */
+  --color-text: #2D2D2D;
+  --color-text-muted: #6B7280;
+
+  /* Fonts */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Exo 2", system-ui, -apple-system, sans-serif;
+}
