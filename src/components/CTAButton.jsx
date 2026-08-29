@@ -49,9 +49,9 @@ const CTAButton = ({
   // Level-based colors (acrux.life backward compatibility)
   const levelStyles = {
     low: {
-      primary: 'bg-success text-white hover:bg-success/90 shadow-lg hover:shadow-success/50',
-      secondary: 'border-2 border-success text-success hover:bg-success/10',
-      ghost: 'text-success hover:bg-success/10'
+      primary: 'bg-accent text-primary font-bold hover:bg-accent/90 shadow-lg hover:shadow-accent/50',
+      secondary: 'border-2 border-accent text-accent hover:bg-accent/10',
+      ghost: 'text-accent hover:bg-accent/10'
     },
     medium: {
       primary: 'bg-secondary text-white hover:bg-secondary/90 shadow-lg hover:shadow-secondary/50',
