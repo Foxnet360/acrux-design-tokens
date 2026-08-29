@@ -1,12 +1,41 @@
 {
   "name": "@acrux/design-tokens",
-  "version": "1.0.0",
-  "description": "Design tokens for Acrux ecosystem",
+  "version": "1.1.0",
+  "description": "Design tokens and shared UI components for Acrux ecosystem",
   "main": "index.js",
+  "types": "index.d.ts",
   "exports": {
-    ".": "./index.js",
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    },
     "./colors": "./colors.js",
-    "./typography": "./typography.js"
+    "./typography": "./typography.js",
+    "./theme.css": "./theme.css",
+    "./components/CTAButton": {
+      "import": "./src/components/CTAButton.jsx",
+      "types": "./src/components/CTAButton.d.ts"
+    },
+    "./components/PrivacyModal": {
+      "import": "./src/components/PrivacyModal.jsx",
+      "types": "./src/components/PrivacyModal.d.ts"
+    }
   },
-  "type": "module"
+  "type": "module",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "lucide-react": "^0.460.0 || ^0.546.0 || ^0.563.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
+    },
+    "react-dom": {
+      "optional": false
+    },
+    "lucide-react": {
+      "optional": false
+    }
+  }
 }
